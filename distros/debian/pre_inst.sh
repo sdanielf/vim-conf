@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt-get install git
+
 distros/debian/install_vim.sh
 
 if [ "`apt-cache search vim-youcompleteme`" ]; then
