@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get -y install vim-nox
+distros/debian/install_vim.sh
 
 if [ "`apt-cache search vim-youcompleteme`" ]; then
     sudo apt-get -y install vim-youcompleteme
