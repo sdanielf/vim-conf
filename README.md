@@ -17,10 +17,14 @@ git clone git://github.com/gmarik/vundle
 
 Then copy the vimrc file to ~/.vimrc and run Vim.
 Once vim is open, you can start downloading plugins through the command
-`:BundleInstall`.
+``:BundleInstall``.
 
 Install script
 --------------
 (Under construction)
 
 Run ``install.sh`` and it will install all what you need.
+
+Features and learning
+---------------------
+Please, read [the wiki](https://github.com/sdanielf/vim-conf/wiki).
