@@ -32,7 +32,7 @@ let mapleader = ","
 " You might not want this, so just leave it out if you don't.
 let g:syntastic_check_on_open=1
 let g:ycm_autoclose_preview_window_after_completion=1
-nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
+noremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 " The bundles you install will be listed here
 
@@ -91,6 +91,7 @@ autocmd Filetype sh setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
+autocmd Filetype javascript noremap <leader>g :TernDefPreview<CR>
 map <leader>n :NERDTreeToggle<Cr>
 map <leader>l :TlistToggle<Cr>
 
