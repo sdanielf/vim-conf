@@ -3,7 +3,8 @@
 cp vimrc /tmp/vimrc
 chmod 777 /tmp/vimrc
 
-if [ -f /etc/ubuntu_version ]; then
+issue=`grep Ubuntu /etc/issue`
+if [ -n "$issue" ]; then
     distros/ubuntu/pre_inst.sh
     POSTINST=distros/ubuntu/post_inst.sh
 elif [ -f /etc/debian_version ]; then
