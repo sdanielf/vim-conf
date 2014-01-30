@@ -17,14 +17,7 @@ fi
 
 cp /tmp/vimrc ~/.vimrc
 mkdir -p ~/.vim/bundle
-if [ -d ~/.vim/bundle/vundle ]; then
-    oldpath=`pwd`
-    cd ~/.vim/bundle/vundle
-    git pull
-    cd $oldpath
-else
-    git clone git://github.com/gmarik/vundle ~/.vim/bundle/vundle
-fi
+common/cloneorpull.sh
 
 vim +BundleInstall +qall
 
