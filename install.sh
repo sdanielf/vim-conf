@@ -17,7 +17,7 @@ fi
 
 cp /tmp/vimrc ~/.vimrc
 mkdir -p ~/.vim/bundle
-common/cloneorpull.sh
+common/cloneorpull.sh https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle
 
 vim +BundleInstall +qall
 
