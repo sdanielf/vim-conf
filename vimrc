@@ -20,8 +20,11 @@ Bundle 'Raimondi/delimitMate'
 {{YCM}}Bundle 'Valloric/YouCompleteMe'
 Bundle 'marijnh/tern_for_vim'
 Bundle 'scrooloose/syntastic'
-Bundle "mattn/emmet-vim"
-Bundle "sdanielf/vim-stdtabs"
+Bundle 'mattn/emmet-vim'
+Bundle 'sdanielf/vim-stdtabs'
+Bundle 'flazz/vim-colorschemes'
+
+colorscheme af
 
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
