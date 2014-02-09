@@ -10,6 +10,9 @@ if [ -n "$issue" ]; then
 elif [ -f /etc/debian_version ]; then
     distros/debian/pre_inst.sh
     POSTINST=distros/debian/post_inst.sh
+elif [ -f /etc/pacman.conf ]; then
+    distros/archlinux/pre_inst.sh
+    POSTINST=distros/archlinux/post_inst.sh
 else
     distros/other/pre_inst.sh
     POSTINST=distros/other/post_inst.sh
