@@ -21,6 +21,7 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'marijnh/tern_for_vim'
 Bundle 'scrooloose/syntastic'
 Bundle "mattn/emmet-vim"
+Bundle "sdanielf/vim-stdtabs"
 
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
@@ -85,11 +86,6 @@ let g:pymode_folding = 0
 let javascript_enable_domhtmlcss = 1
 " let foldmethod = 'syntax'
 
-" Tabs
-autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
-autocmd Filetype sh setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
-autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
-autocmd Filetype html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 autocmd Filetype javascript noremap <leader>g :TernDefPreview<CR>
 map <leader>n :NERDTreeToggle<Cr>
