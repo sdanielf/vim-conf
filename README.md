@@ -7,7 +7,7 @@ Install
 -------
 Run ``install.sh`` and it will install all what you need.
 
-It was tested on Ubuntu and Debian, more distros available soon.
+It was tested on Ubuntu, Debian, and Arch Linux. More distros available soon.
 
 Features and learning
 ---------------------

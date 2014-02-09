@@ -1,4 +1,4 @@
 #!/bin/bash
 
 sudo pacman --noconfirm --needed -S nodejs
-distros/other/build_tern.sh
+common/build_tern.sh

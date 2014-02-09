@@ -1,2 +1,2 @@
-distros/other/build_ycm.sh
-distros/other/build_tern.sh
+common/build_ycm.sh
+common/build_tern.sh

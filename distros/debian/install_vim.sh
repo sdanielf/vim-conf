@@ -8,5 +8,5 @@ if [ "$supported" = "1" ]; then
 else
     sudo apt-get -y install build-essential
     sudo apt-get -y build-dep vim-nox
-    distros/other/build_vim.sh
+    common/build_vim.sh
 fi
