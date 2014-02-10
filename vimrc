@@ -23,8 +23,9 @@ Bundle 'scrooloose/syntastic'
 Bundle 'mattn/emmet-vim'
 Bundle 'sdanielf/vim-stdtabs'
 Bundle 'flazz/vim-colorschemes'
+Bundle 'rodjek/vim-puppet'
 
-colorscheme af
+colorscheme dante
 
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
