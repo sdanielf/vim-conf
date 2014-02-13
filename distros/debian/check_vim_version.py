@@ -22,4 +22,4 @@ for candidate in pkg.versions:
             if version[2] >= required_version[2]:
                 supported_version = True
 
-print int(supported_version)
+print(int(supported_version))
