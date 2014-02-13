@@ -96,3 +96,4 @@ map <leader>n :NERDTreeToggle<Cr>
 map <leader>l :TlistToggle<Cr>
 
 set number
+set mouse=a
