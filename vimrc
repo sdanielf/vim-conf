@@ -25,7 +25,16 @@ Bundle 'sdanielf/vim-stdtabs'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'rodjek/vim-puppet'
 
+" Snipmate
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+Bundle "honza/vim-snippets"
+
 colorscheme dante
+
+imap <C-J> <esc>a<Plug>snipMateNextOrTrigger
+smap <C-J> <Plug>snipMateNextOrTrigger
 
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
